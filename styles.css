@@ -144,7 +144,6 @@ input[type=range]::-webkit-slider-thumb {
     height: 90px;
     width: 70px;
     background-image: url('images/MayFace.png');
-    background-color: none;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -182,7 +181,6 @@ input[type=range]::-moz-range-thumb {
     height: 90px;
     width: 70px;
     background-image: url('images/MayFace.png');
-    background-color: none;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -224,7 +222,6 @@ input[type=range]::moz-range-thumb:active{
     height: 90px;
     width: 70px;
     background-image: url('images/MayFace.png');
-    background-color: none;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -458,7 +455,7 @@ p.right {
         grid-template-columns: 1fr;
     }
     h1.message {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     p.right {
         text-align: left;
@@ -476,7 +473,7 @@ p.right {
     }
 
     div.range-wrap {
-        top:70vh;
+        top:60vh;
     }
 
     #message-section {
