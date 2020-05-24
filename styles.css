@@ -258,7 +258,7 @@ nav {
     position: fixed;
     top:0;
     right:0;
-    max-width: 60%;
+    max-width: 100%;
 }
 
 nav > ul {
