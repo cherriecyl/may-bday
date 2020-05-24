@@ -467,7 +467,7 @@ p.right {
 
 @media only screen and (max-width: 500px) {
     #header {
-        background-size:auto 100%;
+        background-size:auto 100vh;
     }
 }
 
