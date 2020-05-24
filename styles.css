@@ -458,16 +458,35 @@ p.right {
         grid-template-columns: 1fr;
     }
     h1.message {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     p.right {
         text-align: left;
+    }
+
+    nav > ul {
+        display: flex;
+        flex-wrap: wrap;
+        text-indent: 0;
+        align-items: right;
+        justify-content: flex-end;
+        text-align: right;
+        margin: 0.5em 0.5em 0 0;
+        padding: 0;
+    }
+
+    div.range-wrap {
+        top:70vh;
+    }
+
+    #message-section {
+        max-width: 90%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #header {
-        background-size:auto 100vh;
+        background-size:auto 100%;
     }
 }
 
