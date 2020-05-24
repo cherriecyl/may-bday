@@ -451,7 +451,7 @@ p.right {
 }
 
 
-@media (max-width: 760px) {
+@media only screen and (max-width: 760px) {
     #cards, #footer {
         grid-template-columns: 1fr;
     }
