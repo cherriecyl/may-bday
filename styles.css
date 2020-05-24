@@ -289,7 +289,7 @@ button {
     outline:none;
     border: 1px solid white;
     color: white;
-    background: none;
+    background: rgb(22,22,22);
     font-family: 'DM Mono', sans-serif;
     font-size: 1em;
 }
