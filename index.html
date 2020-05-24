@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>May — it's your BIRTHDAY!</title>
+    <description>Celebrating the most rad person ever to be born on May 24, obviously.</description>
+    <meta property="og:title" content="It's May's birthday and she is the best">
+    <meta property="og:description" content="Celebrating the most rad person ever to be born on May 24, obviously.">
+    <meta property="og:image" content="images/Furniture.JPG">
+    <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+</head>
+<body class="confetti">
+    <header id="header">
+        <nav id="navbar">
+            <ul>
+                <li class="nav-item"><button onclick="playAudio()" type="button" class="play">Play music</button></li>
+                <li class="nav-item"><button onclick="pauseAudio()" type="button" class="pause">Pause music</button></li>
+            </ul>
+        </nav> 
+        <audio id="myAudio">
+            <source src="SanFran.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <section id="message-section">
+            <h1 class="message" id="message">May!</h1>
+            <div class="range-wrap">
+                <div class="label">Click & slide <span class="rightarrow">&rarr;</span></div>
+                <input type="range" max="27" value="0" oninput="slide(event)">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="text">
+            <div class="blurb">
+                <div class="label">Hover for fun <span class="downarrow">&darr;</span></div>
+                <img src="images/MayFace.png" alt="May"/>
+                <h2>Hello dearest May!</h2>
+                <p>On this special day, I'm sending you lots of love over the interwebs! <br/><br/></p> 
+                <p>Made you this little something to celebrate how special you are. HOPE YOU LIKE IT (you better). (Here is further evidence that I'm deep in a computer rabbit hole and haven't seen much of the outdoors in the past while.)<br/><br/></p>
+                <p>Despite all the weirdness currently happening in the world, I hope that you're still able to enjoy a peaceful and soul-nourishing day.<br/><br/></p>
+                <p>I'm looking forward to when we get to hang out lots in person, and we'll sip tea and build businesses and plan road trips. (Maybe 27 will be the year you get your driver's license? Haha.)<br/><br/></p>
+                <p>I cannot wait to see what new personal, spiritual, professional, physical territories you'll venture into this year! Don't forget to take care of yourself and take it easy. <br/><br/></p>
+                <p class="label">Lots of love, Cherrie</p>
+            </div>
+        </section>
+        <section id="cards">
+            <div class="tile">
+                <a href="https://open.spotify.com/artist/60df5JBRRPcnSpsIMxxwQm" target="_blank" rel="noopener noreferrer">
+                    <div class="description">
+                        <p class="title">Hope this upcoming year makes you feel jazzy and soulful (like you want to dance naked and frolick in the wilderness).<br/><br/></p>
+                        <p class="overlay">I wanted to put some real soul music (not stuff I recorded on the street) for this website's background music, but alas, I realized I've completely forgotten how to download music. <br/><br/>Does Limewire still exist?</p>
+                        <p class="label">Here's the music I actually wanted on this page <span class="nearrow">&nearr;</span></p>
+                    </div>
+                </a>
+                <div class="image-one"></div>
+            </div>
+            <div class="tile">
+                <div class="image-two"></div>
+                <div class="description" onclick="openStuff();">
+                    <p class="title">Remember that time we watched GoPro videos at Harry's place?</p>
+                    <p class="overlay">I think I actually fell asleep that time or completely zoned out.<br/><br/>But I have rediscovered that those videos are AMAZING.</p>
+                    <p class="label">Click here whenever you need a brain break (randomly generated!) <span class="nearrow">&nearr;</span></p>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div><p class="left">Powered by friendshipz <span role="img" aria-label="Hug">&#129303</span></p></div>
+            <div><p class="right">&copy; 2020 Cherrie Lam - designed & developed</p></div>
+        </section>
+    </main>
+</body>
+<script src="jquery.js"></script>
+<script src="message.js"></script>
+</html>
