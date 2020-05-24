@@ -450,7 +450,6 @@ p.right {
     text-align: right;
 }
 
-
 @media only screen and (max-width: 760px) {
     #cards, #footer {
         grid-template-columns: 1fr;
@@ -460,6 +459,12 @@ p.right {
     }
     p.right {
         text-align: left;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header {
+        background-size:auto 100%;
     }
 }
 
