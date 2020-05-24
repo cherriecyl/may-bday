@@ -256,6 +256,7 @@ nav {
     top:0;
     right:0;
     max-width: 100%;
+    z-index: 99;
 }
 
 nav > ul {
@@ -473,7 +474,7 @@ p.right {
     }
 
     div.range-wrap {
-        top:60vh;
+        top:65vh;
     }
 
     #message-section {
